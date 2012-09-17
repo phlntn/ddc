@@ -6,7 +6,7 @@ Display Data Channel utility for Mac OS X
 
 Used to read and control display settings via the DDC protocol. Largely based on http://lists.apple.com/archives/accessibility-dev/2011/Feb/msg00000.html and lots of trial and error.
 
-Provided as-is, without warranty or support, bla bla.
+Provided as-is, without warranty or support, bla bla. *This might seriously crash your whole computer but shouldn't do any harm.*
 
 
 Usage
