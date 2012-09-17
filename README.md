@@ -41,4 +41,4 @@ Disable display OSD (value 2 to re-enable)
 What to do with this
 --------------------
 
-You could use FunctionFlip to regain control over  the F1 & F2 keys on your keyboard and bind those to the included AppleScripts with an app like Alred.
+You could use FunctionFlip to regain control over  the F1 & F2 keys on your keyboard and bind those to the included AppleScripts with an app like Alfred.
