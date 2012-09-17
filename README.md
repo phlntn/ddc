@@ -41,4 +41,6 @@ Disable display OSD (value 2 to re-enable)
 What to do with this
 --------------------
 
-You could use FunctionFlip to regain control over  the F1 & F2 keys on your keyboard and bind those to the included AppleScripts with an app like Alfred.
+The first step would be to check whether your display supports DDC. Run `ddc 16` and see if it ouputs anything reasonable.
+
+You could then use FunctionFlip to regain control over the F1 & F2 keys on your keyboard and bind those to the included AppleScripts with an app like Alfred.
