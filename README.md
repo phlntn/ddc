@@ -6,7 +6,11 @@ Display Data Channel utility for Mac OS X
 
 Used to read and control display settings via the DDC protocol. Largely based on http://lists.apple.com/archives/accessibility-dev/2011/Feb/msg00000.html and lots of trial and error.
 
-Provided as-is, without warranty or support, bla bla. __This might seriously crash your whole computer but shouldn't do any harm.__ Only tested on a 2011 MacBook Pro with OS X 10.7.4 and a Samsung S27A850T via DisplayPort.
+
+Warning
+-------
+
+__This tool might seriously crash your whole computer.__ So far it is only known to work on a 2011 MacBook Pro with OS X 10.7.4 and a Samsung S27A850T via DisplayPort. On OS X 10.8 it mananges to freeze the entire system.
 
 
 Usage
