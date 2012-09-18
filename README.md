@@ -10,7 +10,22 @@ Used to read and control display settings via the DDC protocol. Largely based on
 Warning
 -------
 
-__This tool might seriously crash your whole computer.__ So far it is only known to work on a 2011 MacBook Pro with OS X 10.7.4 and a Samsung S27A850T via DisplayPort. On OS X 10.8 it mananges to freeze the entire system.
+__This tool might seriously crash your whole computer.__ It's low-level and severly under-tested. 
+
+Here's where it's confirmed to fully work:
+
+* OS X 10.7.4, 2011 MacBook Pro, Samsung S27A850T via DisplayPort
+
+Confirmed to work, but returning wrong information:
+
+* OS X 10.8.2, 2011 MacBook Pro, Acer P246H
+
+Confirmed to __not__ work, freezing the whole system instead:
+
+* OS X 10.8.1, 2009 MacBook Pro
+* OS X 10.8, 2008 MacBook, Dell U2212HM via DVI
+
+If you have any luck with your setup please let me know: http://twitter.com/philippantoni
 
 
 Usage
@@ -48,3 +63,21 @@ What to do with this
 The first step would be to check whether your display supports DDC. Run `ddc 16` and see if it ouputs anything reasonable.
 
 You could then use FunctionFlip to regain control over the F1 & F2 keys on your keyboard and bind those to the included AppleScripts with an app like Alfred.
+
+
+Further reading
+---------------
+
+Learn about DDC on Wikipedia (not very helpful though):  
+http://en.wikipedia.org/wiki/Display_Data_Channel  
+http://en.wikipedia.org/wiki/Monitor_Control_Command_Set
+
+Some actual information about how DDC works:  
+http://www.boichat.ch/nicolas/ddcci/specs.html
+
+This document contains a list of all VCP codes (not guaranteed to work for your monitor):  
+http://d.pr/f/ea49 (.doc, see page 20)
+
+Two free (and very complex) Windows tools to detect your monitor's capabilities:  
+http://www.entechtaiwan.com/lib/softmccs.shtm  
+http://www.portrait.com/enu/dt/toolbox.html
