@@ -14,16 +14,16 @@ __This tool might seriously crash your whole computer.__ It's low-level and seve
 
 Here's where it's confirmed to fully work:
 
-* OS X 10.7.4, 2011 MacBook Pro, Samsung S27A850T via DisplayPort
+* OS X 10.7.4, Late 2011 MacBook Pro, Samsung S27A850T via DisplayPort or HDMI
 
 Confirmed to work, but returning wrong information:
 
-* OS X 10.8.2, 2011 MacBook Pro, Acer P246H
+* OS X 10.8.2, Early 2011 MacBook Pro, Acer P246H
 
-Confirmed to __not__ work, freezing the whole system instead:
+Confirmed to __freeze the whole system:__
 
-* OS X 10.8.1, 2009 MacBook Pro
-* OS X 10.8, 2008 MacBook, Dell U2212HM via DVI
+* OS X 10.8.1, Late 2008 MacBook Pro
+* OS X 10.8, 2008 MacBook
 
 If you have any luck with your setup please let me know: http://twitter.com/philippantoni
 
@@ -78,6 +78,6 @@ http://www.boichat.ch/nicolas/ddcci/specs.html
 This document contains a list of all VCP codes (not guaranteed to work for your monitor):  
 http://d.pr/f/ea49 (.doc, see page 20)
 
-Two free (and very complex) Windows tools to detect your monitor's capabilities:  
+Two free (but very complex) Windows tools to detect your monitor's capabilities:  
 http://www.entechtaiwan.com/lib/softmccs.shtm  
 http://www.portrait.com/enu/dt/toolbox.html
